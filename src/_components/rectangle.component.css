@@ -1,0 +1,10 @@
+.rect {
+  color: crimson;
+  border: 1px solid red;
+  padding: 5px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50vw;
+  height: 50vh;
+}
