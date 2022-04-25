@@ -7,6 +7,8 @@ import { RectangleComponent } from '../_components/rectangle.component';
 import { RectanglebComponent } from 'src/_components/rectangle-b.component';
 import { AuthentificationComponent } from 'src/_components/authentification.component';
 import { PriceComponent } from './price/price.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,8 +16,9 @@ import { PriceComponent } from './price/price.component';
     RectanglebComponent,
     AuthentificationComponent,
     PriceComponent,
+    PageNotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
